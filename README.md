@@ -3,7 +3,9 @@
 ## 환경 설정
 1. Python 환경에서 필수 라이브러리를 설치합니다:
    ```bash
-   pip install albumentations opencv-python ultralytics matplotlib
+   pip install albumentations
+   pip install opencv-python ultralytics
+   pip install matplotlib
    ```
 2. YOLO 형식의 바운딩 박스 라벨 데이터(.txt)와 이미지 데이터를 준비합니다.
 
